@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none; }
+
+/*Mobile*/
+html {
+  font-size: 62.5%;
+  /*1rem -> 10px*/ }
+
+body {
+  width: 100%;
+  background-color: #EEEDDE !important; }
+
+footer {
+  width: 100%;
+  background-color: #E0DDAA; }
+
+/*Header*/
+.header {
+  background-color: #141E27;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center; }
+  .header__logo img {
+    width: 5rem;
+    margin: 0 auto; }
+  .header__title {
+    color: #EEEDDE;
+    width: auto; }
+    .header__title h1 {
+      text-align: center;
+      font-size: small; }
+  .header__social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .header__social-media img {
+    width: 100%; }
+
+nav {
+  background-color: #E0DDAA; }
+
+.nav {
+  width: 100%; }
+  .nav__sections {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: auto 9%;
+    grid-gap: 3%; }
+  .nav__section__a1 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: black; }
+    .nav__section__a1:hover {
+      transition: 500ms;
+      text-shadow: 3px 3px 6px #F9D923;
+      transform: translateY(-2px);
+      color: black; }
+  .nav__section__a2 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: black; }
+    .nav__section__a2:hover {
+      transition: 500ms;
+      text-shadow: 3px 3px 6px #36AE7C;
+      transform: translateY(-2px);
+      color: black; }
+  .nav__section__a3 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: black; }
+    .nav__section__a3:hover {
+      transition: 500ms;
+      text-shadow: 3px 3px 6px #187498;
+      transform: translateY(-2px);
+      color: black; }
+  .nav__section__a4 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: black; }
+    .nav__section__a4:hover {
+      transition: 500ms;
+      text-shadow: 3px 3px 6px #EB5353;
+      transform: translateY(-2px);
+      color: black; }
+
+section iframe {
+  width: 80%;
+  margin: 2rem auto;
+  border-radius: 20px 8px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.9); }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section a {
+    text-decoration: none;
+    transition: 500ms; }
+    .section a:hover {
+      transform: translateX(10px);
+      box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.9); }
+  .section__tae {
+    width: 65%;
+    border-radius: 16px;
+    border: 2px solid #141E27;
+    background-color: #203239;
+    margin-bottom: 1rem; }
+    .section__tae img {
+      display: none; }
+    .section__tae h2 {
+      margin-bottom: 1rem; }
+    .section__tae__text {
+      display: flex;
+      color: #EEEDDE;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+  .section__kwon {
+    width: 65%;
+    border-radius: 16px;
+    border: 2px solid #141E27;
+    background-color: #203239;
+    margin-bottom: 1rem; }
+    .section__kwon img {
+      display: none; }
+    .section__kwon h2 {
+      margin-bottom: 3px; }
+    .section__kwon__text {
+      display: flex;
+      color: #EEEDDE;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+  .section__do {
+    width: 65%;
+    border-radius: 16px;
+    border: 2px solid #141E27;
+    background-color: #203239;
+    margin-bottom: 3rem;
+    text-decoration: none; }
+    .section__do img {
+      display: none; }
+    .section__do h2 {
+      margin-bottom: 3px; }
+    .section__do__text {
+      display: flex;
+      color: #EEEDDE;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+
+.taekwondo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .taekwondo img {
+    margin: 3rem 0;
+    width: 12%; }
+  .taekwondo__text {
+    width: 80%; }
+    .taekwondo__text__intro {
+      font-weight: 800;
+      text-align: justify; }
+    .taekwondo__text__desgloce {
+      font-weight: 700;
+      text-align: justify; }
+    .taekwondo__text__choi {
+      text-align: center; }
+      .taekwondo__text__choi img {
+        margin: 2rem 0 0 0;
+        width: 70%; }
+      .taekwondo__text__choi__art {
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 3rem; }
+
+.form {
+  width: 80%;
+  margin: 3rem auto; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 30px 0 0 0;
+  text-align: center; }
+  .footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .footer__sitios {
+    text-align: center; }
+    .footer__sitios li {
+      margin: 5%; }
+  .footer__redes-sociales {
+    text-align: center; }
+    .footer__redes-sociales .encabezado__social-media {
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto; }
+      .footer__redes-sociales .encabezado__social-media img {
+        width: 90%; }
+  .footer__derechos {
+    background-color: #EEEDDE;
+    width: 100%; }
+    .footer__derechos p {
+      margin: 0; }
+
+.sucursal {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sucursal__content {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2rem;
+    width: 80%; }
+  .sucursal__map {
+    width: 100%;
+    display: flex; }
+
+.alumnos {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: 600; }
+  .alumnos h1 {
+    text-align: center; }
+  .alumnos__titulo {
+    margin: 3rem 0; }
+  .alumnos__text {
+    margin-bottom: 3rem; }
+    .alumnos__text__1 {
+      font-size: 20px; }
+    .alumnos__text__2 {
+      font-size: 15px;
+      margin: 2rem 0;
+      font-weight: 800; }
+    .alumnos__text__3 {
+      font-size: 20px; }
+
+.carrusel {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  .carrusel__subtitle {
+    width: 80%; }
+  .carrusel__fotos {
+    width: 60%;
+    margin: 4rem auto; }
+    .carrusel__fotos img {
+      height: 500px;
+      width: fit-content; }
+
+.ictf2 {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; }
+  .ictf2__title {
+    text-align: center;
+    margin-bottom: 3rem; }
+  .ictf2__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 3rem 0; }
+  .ictf2__logo {
+    text-align: center; }
+    .ictf2__logo img {
+      width: 80%; }
+  .ictf2__video {
+    display: flex;
+    align-items: center; }
+    .ictf2__video iframe {
+      width: 100%; }
+
+/*Tablet*/
+@media only screen and (min-width: 600px) {
+  .header {
+    display: grid;
+    justify-items: center;
+    column-gap: 7%;
+    width: auto; }
+    .header__logo {
+      margin: auto 3rem; }
+    .header__title {
+      color: #EEEDDE;
+      width: auto; }
+      .header__title h1 {
+        text-align: center;
+        font-size: small; }
+    .header__social-media {
+      margin: auto 3rem; }
+  .nav__section__a {
+    font-weight: 800; }
+  .section__video {
+    height: 300px; }
+  .section__tae {
+    flex-direction: row-reverse;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; }
+    .section__tae__text {
+      width: 70%; }
+      .section__tae__text P {
+        width: 80%; }
+    .section__tae img {
+      display: inline;
+      border-radius: 16px 0px 0px 16px;
+      width: 30%; }
+  .section__kwon {
+    flex-direction: row-reverse;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; }
+    .section__kwon__text {
+      width: 70%; }
+      .section__kwon__text P {
+        width: 80%; }
+    .section__kwon img {
+      display: inline;
+      border-radius: 16px 0px 0px 16px;
+      width: 30%;
+      height: auto; }
+  .section__do {
+    flex-direction: row-reverse;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; }
+    .section__do__text {
+      width: 70%; }
+      .section__do__text P {
+        width: 80%; }
+    .section__do img {
+      display: inline;
+      border-radius: 16px 0px 0px 16px;
+      width: 30%;
+      height: auto; }
+  .form {
+    width: 60%; } }
+
+/*Desktop*/
+@media only screen and (min-width: 1024px) {
+  .header {
+    height: auto; }
+    .header img {
+      width: 80px; }
+    .header__title {
+      color: #EEEDDE;
+      width: auto; }
+      .header__title h1 {
+        text-align: center;
+        font-size: xx-large; }
+  .nav__sections {
+    display: flex;
+    width: 60%;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration: none; }
+  .section {
+    margin-bottom: 3rem; }
+    .section__video {
+      width: 50%;
+      height: 700px; }
+    .section__tae {
+      font-size: 25px;
+      margin-bottom: 3rem; }
+    .section__kwon {
+      font-size: 25px;
+      margin-bottom: 3rem; }
+    .section__do {
+      font-size: 25px;
+      margin-bottom: 3rem; }
+  .taekwondo {
+    margin-bottom: 3rem; }
+    .taekwondo__text__intro {
+      font-size: 15px;
+      font-weight: 700; }
+    .taekwondo__text__choi {
+      margin: 5rem auto;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      width: 50%; }
+      .taekwondo__text__choi__art {
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400; }
+    .taekwondo__text__desgloce {
+      font-size: 15px;
+      font-weight: 700; }
+  .form {
+    width: 55%; }
+  .footer {
+    font-size: 15px;
+    margin-top: 0;
+    padding: 30px 0 0 0; }
+  .sucursal {
+    width: 50%;
+    margin: 0 auto; }
+  .alumnos__text__2 {
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 20px;
+    font-weight: 800; }
+  .ictf2 {
+    width: 90%; }
+    .ictf2__block {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 90%; }
+    .ictf2 p {
+      width: 90%; }
+    .ictf2__video {
+      width: 90%; } }
